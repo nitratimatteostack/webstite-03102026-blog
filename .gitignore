@@ -1,0 +1,7 @@
+    # Database locale
+database.sqlite
+database.sqlite-journal
+
+# File utente
+.DS_Store
+Thumbs.db
