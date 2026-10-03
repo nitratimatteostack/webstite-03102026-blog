@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Il mio sito personale</title>
+  <meta name="description" content="Sito personale: chi sono, la mia vita, sport, hobby, love e altro.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#chi-sono" class="logo" data-tab="chi-sono">[Il tuo nome]</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+      <ul class="menu" id="menu">
+        <li><a href="#chi-sono" data-tab="chi-sono">Chi sono</a></li>
+        <li><a href="#my-life" data-tab="my-life">My life</a></li>
+        <li><a href="#sport" data-tab="sport">Sport</a></li>
+        <li><a href="#hobby" data-tab="hobby">Hobby</a></li>
+        <li><a href="#love" data-tab="love">Love</a></li>
+        <li><a href="#other" data-tab="other">Other</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <section class="tab active" id="chi-sono">
+      <div class="hero">
+        <p class="eyebrow">Ciao, sono</p>
+        <h1>[Il tuo nome].</h1>
+        <p class="lead">[Una frase che ti descrive: curioso, creativo, sempre in movimento.]</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>Età</h3>
+          <p>[XX anni]</p>
+        </article>
+        <article class="card">
+          <h3>Città</h3>
+          <p>[La tua città]</p>
+        </article>
+        <article class="card">
+          <h3>Cosa faccio</h3>
+          <p>[Studente / lavoro / progetto]</p>
+        </article>
+        <article class="card wide">
+          <h3>In breve</h3>
+          <p>[Scrivi qui due o tre righe su di te: carattere, valori, cosa ti rende unico.]</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="tab" id="my-life">
+      <div class="hero">
+        <p class="eyebrow">My life</p>
+        <h1>La mia storia.</h1>
+        <p class="lead">[I momenti che mi hanno reso quello che sono.]</p>
+      </div>
+      <div class="timeline">
+        <div class="t-item"><span>[Anno]</span><p>[Un momento importante della tua vita.]</p></div>
+        <div class="t-item"><span>[Anno]</span><p>[Un altro traguardo o cambiamento.]</p></div>
+        <div class="t-item"><span>[Anno]</span><p>[Dove sei oggi.]</p></div>
+      </div>
+    </section>
+
+    <section class="tab" id="sport">
+      <div class="hero">
+        <p class="eyebrow">Sport</p>
+        <h1>In movimento.</h1>
+        <p class="lead">[Lo sport è parte della mia giornata perché...]</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>⚽ [Sport 1]</h3>
+          <p>[Da quanto lo pratichi, squadra, risultati.]</p>
+        </article>
+        <article class="card">
+          <h3>🏃 [Sport 2]</h3>
+          <p>[Descrizione.]</p>
+        </article>
+        <article class="card">
+          <h3>🏋️ [Sport 3]</h3>
+          <p>[Descrizione.]</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="tab" id="hobby">
+      <div class="hero">
+        <p class="eyebrow">Hobby</p>
+        <h1>Quello che amo fare.</h1>
+        <p class="lead">[Cosa riempie il mio tempo libero.]</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>🎧 [Hobby 1]</h3>
+          <p>[Descrizione.]</p>
+        </article>
+        <article class="card">
+          <h3>🎮 [Hobby 2]</h3>
+          <p>[Descrizione.]</p>
+        </article>
+        <article class="card">
+          <h3>📚 [Hobby 3]</h3>
+          <p>[Descrizione.]</p>
+        </article>
+        <article class="card">
+          <h3>📷 [Hobby 4]</h3>
+          <p>[Descrizione.]</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="tab" id="love">
+      <div class="hero">
+        <p class="eyebrow">Love</p>
+        <h1>Le cose del cuore.</h1>
+        <p class="lead">[Persone, passioni e cose che amo.]</p>
+      </div>
+      <div class="grid">
+        <article class="card wide dark">
+          <h3>❤️ [Persona / cosa speciale]</h3>
+          <p>[Scrivi qui una dedica o una storia.]</p>
+        </article>
+        <article class="card">
+          <h3>Famiglia e amici</h3>
+          <p>[Chi conta per te.]</p>
+        </article>
+        <article class="card">
+          <h3>Le mie passioni</h3>
+          <p>[Ciò che ti fa battere il cuore.]</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="tab" id="other">
+      <div class="hero">
+        <p class="eyebrow">Other</p>
+        <h1>Tutto il resto.</h1>
+        <p class="lead">[Curiosità, preferiti e contatti.]</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>Film e serie</h3>
+          <p>[I tuoi preferiti.]</p>
+        </article>
+        <article class="card">
+          <h3>Musica</h3>
+          <p>[Artisti o generi.]</p>
+        </article>
+        <article class="card">
+          <h3>Curiosità</h3>
+          <p>[Qualcosa di inaspettato su di te.]</p>
+        </article>
+        <article class="card wide">
+          <h3>Contattami</h3>
+          <p><a class="link" href="mailto:tuamail@esempio.com">tuamail@esempio.com</a> · <a class="link" href="[instagram.com](https://instagram.com/)" target="_blank" rel="noopener">Instagram</a></p>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> [Il tuo nome]. Tutti i diritti riservati.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
